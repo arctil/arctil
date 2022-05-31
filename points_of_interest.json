@@ -1,0 +1,43 @@
+{
+	"critical":[
+		{"URL SQL Injection":"Unsanitized GET parameter allowing malicious SQL code for backend database manipulation."},	
+		{"Remote File Inclusion":"Inclusion or remote files, RFI attack's range from sensitive information disclosure to remote code execution."},
+		{"POST SQL Injection":"Unsanitized POST data allows for malicious SQL code and backend database manipulation."},
+		{"POST Cross Site Scripting":"POST cross site scripting can occur when unsanitized data is stored on the server. This data is later accessed and displayed. An example would be a comment or forum system."},
+		{"POST XPath Injection":"XPath injection is a type of attack where a malicious input can lead to un-authorised access or exposure of sensitive information such as structure and content of XML document."},
+		{"LDAP Injection":"LDAP Injection is an attack used to exploit web based applications that construct LDAP statements based on user input."},
+		{"Command Injection":"OS command injection can allow an attacker to fully compromise the operating system your website runs on."},
+		{"Remote Code Execution":"The impact of an RCE vulnerability can range from malware execution to an attacker gaining full control over a compromised machine."},
+		{"Blind SQL Injection":"Unsanitized GET parameter allowing malicious SQL code for backend database manipulation."}
+	],
+	"warning":[
+		{"Local File Inclusion":"Local File Inclusion is the process of including files that are already locally present on the server, through the exploitation of vulnerable inclusion procedures."},
+		{"Reflected Cross Site Scripting":"Unsanitized GET parameter allows for code to be reflected back resulting in Cross Site Scripting (XSS)."},
+		{"HTTP Verb Tampering":"Many authentication mechanisms only limit access to the most common HTTP methods, thus allowing unauthorized access to restricted resources by other HTTP methods."},
+		{"Unvalidated Redirect":"Unvalidated redirects are possible when a web application accepts untrusted input that can cause the web application to redirect the request to a URL."},
+		{"Open Directory Listing":"Directory listing can give attackers an insight into the website structure and allow easy browsing of stored files."},
+		{"Weak Passwords":""},
+		{".htpasswd File Located":""}
+	],
+	"information":[
+		{"Server Misconfiguration":"Common server misconfigurations such as leaking software versions can lead to version exploitation such as:\n  Apache 2.0.3\n  nginix1.2.12\n  PHP4.6.9"},
+		{"Full Path Disclosure":"FPD vulnerabilities enable the attacker to see the path to the webroot/file and build up an understanding of the website's structure."},
+		{"Software Detected":"This website is using popular software such as a content management system or forum."},
+		{"Internal Server Error":"Web page is returning 500 status code potentially displaying default error pages."},
+		{"Broken Link":"Broken links can hurt website SEO or display default error pages."},
+		{"Robots.txt":"The robots.txt file is used to talk to web crawlers. The robots.txt file can often hold inportant information such as restricted locations such as:\n  admin/\n  cpanel/"},
+		{"Default Error Pages":"Default error pages can give up server information or can allow website enumeration through common basenames."},
+		{"No Forced SSL":"Lack of forced secure socket layer can lead to sesitive data exposure."},
+		{".htaccess File Located":""},
+		{"Target Uses Cookies":"Cookies are small text files with pieces of data that websites send to your browser/device, like login information, which are used to monitor and identify you."},
+		{"CDN Detected":"A content delivery network, or content distribution network (CDN), is a geographically distributed network of proxy servers and their data centers."},
+		{"Exposed Email":"Exposed email addresses can lead to social engineering and targeted malware via email attachments."},
+		{"Exposed Telephone Number":"Exposed telephone numbers can lead social engineer attempts."},
+		{"Javascript Library Detected":"Target website makes use of popular Javascript libraries."},
+		{"WAF Detected":"The target system is activly filtering certain requests that contain specific characters, page returns 403 status code."},
+		{"Missing Security Headers":"The target system is not making use of all recommended security headers X-Frame-Options, Strict-Transport-Policy and Content-Security-Policy. See request headers (Right hand side)."}
+	],
+	"safe":[
+		{"safe":"No points of interest found."}	
+	]
+}
