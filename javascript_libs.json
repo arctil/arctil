@@ -1,0 +1,34 @@
+{
+	"jQuery":
+	["\\/* jQuery v(.*) \\| \\(c\\) "],
+	"React":
+	["ReactVersion = '(.*?)'"],
+	"Angular":
+	["AngularJS v(.*)"],
+	"Ember":
+	["@overview  Ember"],
+	"Mithril":
+	["Mithril.js"],
+	"D3":
+	["https:\\/\\/d3js\\.org v(.*?) Copyright"],
+	"Socket.IO":
+	["Socket\\.IO v(.*?)"],
+	"Ionic":
+	[" \\* Ionic, v(.*?)"],
+	"Leaflet":
+	["\\* Leaflet (.*?),"],
+	"Hammer.JS":
+	["\\/\\*! Hammer\\.JS - v(.*?)"],
+	"Video.js":
+	["Video is not ready\\. \\(Video\\.js\\)"],
+	"FancyBox jQuery":
+	["\\* FancyBox - jQuery Plugin"],
+	"Backbone JS":
+	["\\/\\/     Backbone\\.js "],
+	"Aurelia":
+	["define\\('aurelia-binding'"],
+	"Redux":
+	["factory\\(global\\.Redux = \\{\\}\\)\\);"],
+	"Underscore JS":
+	["//     Underscore\\.js (.*)"]
+}
