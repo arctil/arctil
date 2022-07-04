@@ -4,7 +4,7 @@
 	"React":
 	["ReactVersion = '(.*?)'"],
 	"Angular":
-	["AngularJS v(.*)"],
+	["AngularJS v(.*)","\\{var n=angular\\.module\\(\""],
 	"Ember":
 	["@overview  Ember"],
 	"Mithril":
@@ -30,5 +30,7 @@
 	"Redux":
 	["factory\\(global\\.Redux = \\{\\}\\)\\);"],
 	"Underscore JS":
-	["//     Underscore\\.js (.*)"]
+	["//     Underscore\\.js (.*)"],
+	"Bootstrap":
+	["\\* Bootstrap (.*) \\(https:\\/\\/getbootstrap.com\\/\\)"]
 }
