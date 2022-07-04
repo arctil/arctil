@@ -1,10 +1,11 @@
-### arctil web application security tool configuration files
+### arctil security assessment tool configuration files
 
  * Information gather
  * Website Enumeration
  * Vulnerability Scanner
- 
-For more information visit the official website - https://arctil.com
+
+
+Help protect your website against a multitude of potential security threats with our website security scanner. For more information visit the official website - https://arctil.com
 
 <!--
 **arctil/arctil** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
