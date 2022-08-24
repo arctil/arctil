@@ -1,6 +1,22 @@
 {
 	"Cloudflare":[
 		"<title>Attention Required! | Cloudflare</title>",
-		"<noscript id=\"cf-captcha-bookmark\" class=\"cf-captcha-info\">"
+		"<noscript id=\"cf-captcha-bookmark\" class=\"cf-captcha-info\">",
+		"class=\"cf-alert cf-alert-error cf-cookie-error\"",
+		"data-translate=\"please_wait\" id=\"cf-spinner-please-wait\">",
+		"used Cloudflare to restrict access</title>",
+		"<h2 data-translate=\"blocked_why_headline\">Why have I been blocked?</h2>"
+	],
+	"Sucuri":[
+		"<title>Sucuri WebSite Firewall - Access Denied</title>",
+		"stylesheet\" href=\"https://cdn.sucuri.net/sucuri-firewall-block.css\" />",
+		"a href=\"https://sucuri.net/?utm_source=firewall_block\" class=\"site-link\">",
+		"<span class=\"logo-neartext\">Website Firewall</span>"
+	],
+	"Imperva":[
+		"Request unsuccessful. Incapsula incident ID:"
+	],
+	"Imunify360":[
+		"<span class=\"powered_span\">Powered by Imunify360</span>"
 	]
 }

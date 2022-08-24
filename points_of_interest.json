@@ -16,8 +16,8 @@
 		{"HTTP Verb Tampering":"Many authentication mechanisms only limit access to the most common HTTP methods, thus allowing unauthorized access to restricted resources by other HTTP methods."},
 		{"Unvalidated Redirect":"Unvalidated redirects are possible when a web application accepts untrusted input that can cause the web application to redirect the request to a URL."},
 		{"Open Directory Listing":"Directory listing can give attackers an insight into the website structure and allow easy browsing of stored files."},
-		{"Weak Passwords":""},
-		{".htpasswd File Located":""}
+		{".htpasswd File Located":""},
+		{"Basic authentication over HTTP":"User credentials are being transmitted over HTTP in plain text."}
 	],
 	"information":[
 		{"Server Misconfiguration":"Common server misconfigurations such as leaking software versions can lead to version exploitation such as:\n  Apache 2.0.3\n  nginix1.2.12\n  PHP4.6.9"},
@@ -33,9 +33,11 @@
 		{"CDN Detected":"A content delivery network, or content distribution network (CDN), is a geographically distributed network of proxy servers and their data centers."},
 		{"Exposed Email":"Exposed email addresses can lead to social engineering and targeted malware via email attachments."},
 		{"Exposed Telephone Number":"Exposed telephone numbers can lead social engineer attempts."},
-		{"Javascript Library Detected":"Target website makes use of popular Javascript libraries."},
+		{"Javascript Library Detected":"Target website makes use of popular Javascript libraries or frameworks."},
+		{"Framework Detected":"The target application or website uses a popular web framework to aid in development."},
+		{"Possible Information Leak":"Information Leakage can include but is not limited to possible sensitive information being exposed in website source code."},
 		{"WAF Detected":"The target system is activly filtering certain requests that contain specific characters, page returns 403 status code."},
-		{"Missing Security Headers":"The target system is not making use of all recommended security headers X-Frame-Options, Strict-Transport-Policy and Content-Security-Policy. See request headers (Right hand side)."}
+		{"Missing Security Headers":"The target website is not making use of all recommended security headers such as X-Frame-Options, Strict-Transport-Policy and Content-Security-Policy."}
 	],
 	"safe":[
 		{"safe":"No points of interest found."}	

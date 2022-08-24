@@ -1,0 +1,44 @@
+{
+	"WordPress":
+	["/wp-admin/", "/wp-includes/","/wp-themes/plugins/","<!-- end of wordpress head -->","<meta name=\"generator\" content=\"WordPress"," href='/wp-content/cache/"],
+	"MyBB":
+	["Powered By <a href=\"(.*)>MyBB","onchange=\"MyBB.changeTheme\\(\\)","var MyBBEditor = null;","\\<generator uri=\"(.*)\">MyBB<\/generator>","<dd>MyBB Error \\(43\\)<\/dd>"],
+	"Vanilla Forums":
+	["console.error\\(\"Cannot register a vanilla ready handler that is not a function,","/applications/vanilla/js/","/applications/vanilla/design/"],
+	"phpBB":
+	["<meta name=\"application-name\" content=\"phpBB\" />","<div id=\"phpbb_confirm\" class=\"phpbb_alert\">","Powered by <a href=\"https://www.phpbb.com/\">phpBB</a>","var style_cookie = 'phpBBstyle';","Powered by <a href=\"http://www.phpbb.com/\">phpBB</a>"],
+	"Joomla":
+	["/joomla/images/","<meta name=\"generator\" content=\"Joomla!","<script type=\"application/json\" class=\"joomla-script-options new\">"],
+	"Wix":
+	[" id=\"wixDesktopViewport\"","http-equiv=\"X-Wix-Meta-Site-Id\"","static.wixstatic.com/media/"],
+	"SquareSpace":
+	["//assets.squarespace.com/universal/","<!-- This is Squarespace. -->","//images.squarespace-cdn.com/content/"],
+	"Flarum":
+	["document.getElementById\\('flarum-content'\\)","<div id=\"flarum-loading\"","flarum.core.app.load\\(\\{"],
+	"Browser CMS":
+	["<p>Browser CMS (.*) Rails (.*) Env production</p>","\\<a href=\"(.*)\">BrowserMedia</a>"],
+	"XenForo":
+	["rel=\"sponsored noopener\">Community platform by XenForo<sup>","\\<span class=\"copyright\">&copy; (.*) XenForo Ltd.</span>","<html id=\"XenForo\""],
+	"vBulletin":
+	["<meta name=\"generator\" content=\"vBulletin (.*)\" />"," id=\"vbulletin_css\">","style type=\"text/css\" id=\"vbulletin_showthread_css\">"],
+	"Invision":
+	["<a rel='nofollow' title='Invision Community' href='https://www.invisioncommunity.com/'>Powered by Invision Community</a>","<a rel=\"nofollow\" title=\"Invision Community\" href=\"https://www.invisioncommunity.com/\">Powered by Invision Community</a>","<!--ipsQueryLog-->"],
+	"Discourse":
+	["<meta name=\"generator\" content=\"Discourse (.*)","<meta name=\"discourse-base-uri\""],
+	"Shopify":
+	["//cdn.shopify.com","<div id=\"shopify-section-footer\"","<div id=\"shopify-section-dbtfy-instagram-feed\""],
+	"Drupal":
+	["<meta name=\"generator\" content=\"Drupal (.*)","jQuery.extend\\(Drupal.settings,","\\\/css\\\/drupal-style.css\":1","data-drupal-selector=\""],
+	"Moodle":
+	["<meta name=\"keywords\" content=\"moodle(.*)","\"moodle\":{\"name\":\"moodle\",\"base\":\""],
+	"Coppermine Photo Gallery":
+	["<!--Coppermine Photo Gallery (.*)-->","Powered by <a href=\"http://coppermine-gallery.net/\" title=\"Coppermine Photo Gallery"],
+	"FluxBB":
+	["<p id=\"poweredby\">Powered by <a href=\"http://fluxbb.org/\">FluxBB</a></p>"],
+	"XOOPS":
+	["<meta name=\"generator\" content=\"XOOPS\">","script src=\"(.*)/include/xoops.js\""],
+	"Weblication CMS":
+	["<meta name=\"Generator\" content=\"Weblication(.) CMS\"/>","src=\"\\/(.*?)\\/img\\/weblication\\/wThumbnails"],
+	"PDshop":
+	["Powered by <a target=\"_blank\" href=\"https:\/\/www.pdshop.com\/\">PDshop<\/a>"]
+}
